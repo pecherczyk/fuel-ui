@@ -1,0 +1,41 @@
+{
+  "name": "fuel-ui",
+  "version": "1.0.0",
+  "description": "HTML based user interface to archive car's fuel consumption and fuel price",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "webpack-dev-server",
+    "dev": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pecherczyk/fuel-ui.git"
+  },
+  "keywords": [
+    "fuel",
+    "consumption"
+  ],
+  "author": "gutk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pecherczyk/fuel-ui/issues"
+  },
+  "homepage": "https://github.com/pecherczyk/fuel-ui#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.3.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "semistandard": "^14.2.0",
+    "style-loader": "^1.0.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "bulma": "^0.8.0"
+  }
+}
