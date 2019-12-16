@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Fuel Calculator">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <script src="/assets/js/main.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fuel Calculator">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Fuel Calculator</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <script src="/assets/js/main.js"></script>
 </head>
+
 <body>
   <div class="container">
-    <p>hello world!</p>
+    <h1>Fuel Calculator</h1>
+    <img src="favicon.ico" alt="favicon">
     <form action="/">
-      <input type="button" value="click">
+      Kilometers:
+      <input type="text" name="kilometers" id="kilometers" placeholder="450" maxlength="4">
+      Price:
+      <input type="number" name="fuelPrice" id="fuelPrice" placeholder="9.99">
+      Consumed fuel:
+      <input type="number" name="liters" id="liters" placeholder="25.5"><br>
+      <input type="submit" value="Send">
     </form>
   </div>
 </body>
+
 </html>

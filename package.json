@@ -37,5 +37,8 @@
   },
   "dependencies": {
     "bulma": "^0.8.0"
+  },
+  "semistandard": {
+    "globals": [ "path" ]
   }
 }
