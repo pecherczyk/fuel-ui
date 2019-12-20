@@ -36,9 +36,13 @@
     "webpack-dev-server": "^3.9.0"
   },
   "dependencies": {
-    "bulma": "^0.8.0"
+    "bulma": "^0.8.0",
+    "normalize.css": "^8.0.1",
+    "postcss-normalize": "^8.0.1"
   },
   "semistandard": {
-    "globals": [ "path" ]
+    "globals": [
+      "path"
+    ]
   }
 }

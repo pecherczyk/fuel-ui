@@ -1,4 +1,11 @@
 @import "../scss/variables.scss";
+@import "../scss/box.scss";
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 480px;
+}
 
 body {
     background-color: $base-color;

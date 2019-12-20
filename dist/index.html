@@ -8,22 +8,28 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Fuel Calculator</title>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
   <script src="/assets/js/main.js"></script>
 </head>
 
 <body>
-  <div class="container">
+  <div class="">
     <h1>Fuel Calculator</h1>
     <img src="favicon.ico" alt="favicon">
     <form action="/">
-      Kilometers:
+      <label for="kilometers">Kilometers</label>
       <input type="text" name="kilometers" id="kilometers" placeholder="450" maxlength="4">
-      Price:
-      <input type="number" name="fuelPrice" id="fuelPrice" placeholder="9.99">
-      Consumed fuel:
-      <input type="number" name="liters" id="liters" placeholder="25.5"><br>
+      <label for="fuelPrice">Fuel Price</label>
+      <input type="text" name="fuelPrice" id="fuelPrice" placeholder="9.99" maxlength="4">
+      <label for="liters">Liters consumed</label>
+      <input type="text" name="liters" id="liters" placeholder="25.5" maxlength="4"><br>
       <input type="submit" value="Send">
     </form>
+  </div>
+  <div class="container">
+    <div class="box-green"></div>
+    <div class="box-red"></div>
+    <div class="box-pink"></div>
   </div>
 </body>
 

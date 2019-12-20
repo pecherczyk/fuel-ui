@@ -1,0 +1,19 @@
+@mixin box {
+  width: 150px;
+  height: 100px;
+}
+
+.box-green {
+  @include box;
+  background-color: green;
+}
+
+.box-red {
+  @include box;
+  background-color: red;
+}
+
+.box-pink {
+  @include box;
+  background-color: pink;
+}
