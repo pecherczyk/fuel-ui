@@ -13,23 +13,26 @@
 </head>
 
 <body>
-  <div class="">
-    <h1>Fuel Calculator</h1>
-    <img src="favicon.ico" alt="favicon">
+  <div class="container">
     <form action="/">
-      <label for="kilometers">Kilometers</label>
-      <input type="text" name="kilometers" id="kilometers" placeholder="450" maxlength="4">
-      <label for="fuelPrice">Fuel Price</label>
-      <input type="text" name="fuelPrice" id="fuelPrice" placeholder="9.99" maxlength="4">
-      <label for="liters">Liters consumed</label>
-      <input type="text" name="liters" id="liters" placeholder="25.5" maxlength="4"><br>
+      <div class="form-head">
+        <h1>Fuel Calculator</h1>
+        <img src="favicon.ico" alt="favicon">
+      </div>
+      <div class="form-input">
+        <label for="kilometers">kilometers</label>
+        <input type="text" name="kilometers" id="kilometers" placeholder="450" maxlength="4">
+      </div>
+      <div class="form-input">
+        <label for="fuelPrice">fuel price</label>
+        <input type="text" name="fuelPrice" id="fuelPrice" placeholder="9.99" maxlength="4">
+      </div>
+      <div class="form-input">
+        <label for="liters">liters consumed</label>
+        <input type="text" name="liters" id="liters" placeholder="25.5" maxlength="4">
+      </div>
       <input type="submit" value="Send">
     </form>
-  </div>
-  <div class="container">
-    <div class="box-green"></div>
-    <div class="box-red"></div>
-    <div class="box-pink"></div>
   </div>
 </body>
 
