@@ -1,0 +1,34 @@
+form {
+    width: 480px;
+    font-family: $basic-font;
+    color: white;
+}
+
+.form-head {
+    background-color: $base-color * 0.84;
+    padding: 24px;
+
+}
+
+.form-head h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    display: inline;
+}
+
+.form-head img {
+    width: 32px;
+}
+
+.form-input {
+ margin: 2px;
+}
+
+input {
+    width: 160px;
+    padding: 4px;
+}
+
+.form-input label {
+    font-size: 16px;
+}

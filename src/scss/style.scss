@@ -1,5 +1,6 @@
 @import "../scss/variables.scss";
 @import "../scss/box.scss";
+@import "../scss/form.scss";
 
 .container {
     display: flex;
@@ -7,36 +8,6 @@
     justify-content: center;
 }
 
-form {
-    width: 480px;
-}
 body {
     background-color: $base-color;
-}
-
-.form-head {
-    background-color: $base-color * 0.84;
-    padding: 24px;
-
-}
-
-.form-head h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
-    text-align: center;
-    display: inline;
-}
-
-.form-head img {
-    width: 32px;
-}
-
-input {
-    width: 120px;
-}
-
-.form-input label {
-    color: white;
-    font-size: small;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
